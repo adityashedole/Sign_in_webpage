@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>signup_perfect</title>
+	<style type="text/css">
+		.main-div{
+			background-color: white;
+			width: 100%;
+			height: 100vh;
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.cdiv1{
+			width: 50%;
+			height: 600px;
+			background-color: blue;
+			background-image: url("https://assets-v2.lottiefiles.com/a/4bf3bbba-1167-11ee-8a8e-175bda463efb/HK55Smih7x.gif");
+
+		}
+		.cdiv2{
+			width: 50%;
+			height: 100vh;
+			margin-bottom: 240px;
+			margin-left: 70px;
+			margin-top: 400px;
+		}
+
+		.boxshadow{
+			box-shadow: 5px 8px 7px 7px black;
+			width: 52%;
+			height: 400px;
+			padding-bottom: 20px;
+			padding-top: 20px;
+			text-align: center;
+			border-radius: 20px;
+		}
+
+		.sign-up{
+			font-family: monospace;
+			letter-spacing: 2px;
+			font-size: 35px;
+			padding-left: 10px;
+			color: royalblue;
+		}
+
+		input{
+			text-align: center;
+			height: 30px;
+			cursor: pointer;
+			letter-spacing: 1.3px;
+		}
+		input:hover{
+			border-radius: 10px;
+			border-color: red;
+			transform: scale(0.98);
+			
+		}	
+		
+		.lnk{
+			text-decoration: none;
+			font-family: serif;
+			color: royalblue;
+		}
+		.sgnbtn:hover{
+			border-color: #7ea4fc;
+			transform: scale(1.0);
+			font-family: Arial black;
+			font-variant: small-caps;
+		}
+		.lnk:hover{
+			color: #f75998;
+		}	
+		
+		
+	</style>
+</head>
+<body>
+	<div class="main-div">
+		<div class="cdiv1">
+			
+		</div>
+		<div class="cdiv2">
+			<div class="boxshadow">
+			<h2 class="sign-up">&#x1F510;Sign-in</h2>
+			<form>
+				<input type="text" name="username" placeholder="USERNAME" required size="30%">
+				<br><br>
+				<input type="email" name="Email" placeholder="EMAIL" value="@gmail.com" size="30%">
+				<br><br>
+				<input type="text" name="Password" placeholder="PASSWORD" size="30%">
+				<p> <a href="#" class="lnk" title="click_me">forgot password</a> </p>
+				<!-- <input type="checkbox" name="box"checked>Remember me -->
+				
+				<input type="button" value="Sign in"  class="sgnbtn"  >
+				<p> Dont have an account <a href="#" class="lnk" title="click_me"> create account ?</a> </p>
+			</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
